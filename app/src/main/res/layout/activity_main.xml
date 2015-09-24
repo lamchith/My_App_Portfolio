@@ -1,3 +1,7 @@
+<ScrollView
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
     android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
@@ -14,7 +18,7 @@
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="SPOTIFY STREAMER"
+        android:text="@string/spotify_app_name"
         android:id="@+id/button_spotify"
         android:layout_marginTop="42dp"
         android:layout_below="@+id/textView"
@@ -23,7 +27,7 @@
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="SCORES APP"
+        android:text="@string/scores_app_name"
         android:id="@+id/button_score"
         android:layout_below="@+id/button_spotify"
         android:layout_alignStart="@+id/button_spotify" />
@@ -31,7 +35,7 @@
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="LIBRARY APP"
+        android:text="@string/lib_app_name"
         android:id="@+id/button_library"
         android:layout_below="@+id/button_score"
         android:layout_alignStart="@+id/button_spotify"/>
@@ -39,7 +43,7 @@
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="BUILD IT BIGGER"
+        android:text="@string/build_it_app_name"
         android:id="@+id/button_build_bigger"
         android:layout_below="@+id/button_library"
         android:layout_alignStart="@+id/button_spotify"/>/>
@@ -47,7 +51,7 @@
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="XYZ READER"
+        android:text="@string/xyz_app_name"
         android:id="@+id/button_xyz_reader"
         android:layout_below="@+id/button_build_bigger"
         android:layout_alignStart="@+id/button_spotify"/> />
@@ -55,10 +59,13 @@
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="CAPSTONE: MY  OWN APP"
+        android:text="@string/capstone_app_name"
         android:id="@+id/button_capstone"
         android:layout_below="@+id/button_xyz_reader"
         android:layout_alignStart="@+id/button_spotify"
         android:layout_marginBottom="101dp" />
 
+
+
 </RelativeLayout>
+</ScrollView>
